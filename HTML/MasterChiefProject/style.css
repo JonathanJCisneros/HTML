@@ -1,0 +1,65 @@
+/* A general selector that grabs EVERYTHING on the screen */
+/* CSS reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Two things to identify CSS */
+/* 1. What are we affecting  */
+/* We are going to affect an h1 tag */
+/* 2. What are we doing to it? */
+/* We are turning the h1 text color to green */
+h1 {
+    /* Within these curly brackets are all the changes I will apply to this h1 */
+    /* I want to change the font color */
+    /* Well how do I change the font color? */
+    color: rgb(44, 86, 46);
+    text-align: center;
+    font-size: 50px;
+    margin: 15px;
+}
+img {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 600px;
+}
+.about {
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+}
+p {
+    background-color: aquamarine;
+    padding: 10px;
+}
+/* Use a . for classes */
+.list {
+    display: inline-block;
+    vertical-align: top;
+}
+.nogreen {
+    background-color: rgb(44, 86, 46);
+}
+
+.appearance {
+    display: inline-block;
+    vertical-align: top;
+}
+ul{
+    padding-left: 40px;
+}
+/* Use a # for id's */
+#mytable {
+    background-color: orange;
+    margin: 20px;
+}
+
+td {
+    padding: 10px;
+    color: white;
+}
+
+.italics {
+    font-style: italic;
+}
